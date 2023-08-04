@@ -1,0 +1,103 @@
+/*div padre */
+.pdf{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background: rgb(4,32,1);
+background: linear-gradient(90deg, rgba(4,32,1,1) 11%, rgba(4,17,53,1) 41%, rgba(4,66,49,1) 92%);
+}
+
+/* botones de anterior y siguente*/
+.botones-select{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12%;
+}
+
+.select_categorias{
+    color: white!important;
+}
+/*pdf mismo*/
+canvas{
+    margin-top: 5%;
+    height: 185%!important;
+    margin-bottom: 15%;
+}
+
+.paginas{
+    text-align: center;
+   
+}
+
+.selector_paginas{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.pdf_pagina{
+    color: white;
+}
+
+.mostradorpagina{
+    color:white;
+}
+/*medias querry para dispositivos mobiles*/
+@media screen and (max-width:1280px) {
+    .botones-select{
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .botones-select{
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width:912px) {
+    .botones-select{
+        margin-top:35%;
+    }
+}
+
+@media screen and (max-width:820px) {
+canvas{
+    width:100%!important;
+}
+.botones-select{
+    margin-top:40%;
+}    
+}
+
+@media screen and (max-width:540px) {
+    canvas{
+        width: 100%!important;
+    }
+}
+
+@media screen and (max-width:480px) {
+    canvas{
+        width: 100%!important;
+        margin-top: 0%;
+    
+    }
+    .botones-select{
+        margin-top: 80%; 
+        width: 85%;
+    }
+
+    .css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root{
+        top: 25% !important;;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .botones-select{
+        margin-top: 100%;
+    }
+    .select_categorias{
+        width: 60%!important;
+    }
+}

@@ -1,0 +1,114 @@
+.logoss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.logotrupper{
+  width: 20%;
+  height: 10%;
+}
+
+
+.logo-hover {
+  filter: invert(1) grayscale(100%) brightness(0%);
+  width: 20%;
+  height: 10%;
+}
+
+  
+
+
+/*media query para ipdas*/
+@media only screen and (max-width: 820px){
+  .logoss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+
+  }
+  .logotrupper{
+    
+    width: 45%;
+    height: 15%;
+    bottom: 35%;
+  }
+  .logo-hover {
+      filter: invert(1) grayscale(100%) brightness(200%);
+      width: 45%;
+      height: 15%;
+      bottom: 35%;
+  }
+  
+}
+
+
+ /*Media query para celulares grandes*/ 
+@media screen and (max-width:600px){
+
+.logoss{
+
+height: 20%;
+}
+
+.fotos_empresa{
+
+ flex-direction: column;
+}
+
+
+}
+@media only screen and (max-width: 480px){
+  .logotrupper{
+    
+    width: 45%;
+    height: 15%;
+    position: relative;
+    top: 5%;
+  }
+  .logo-hover {
+      filter: invert(1) grayscale(100%) brightness(200%);
+      width: 45%;
+      height: 15%;
+      position: relative;
+      top: 5%;
+  }
+  }
+
+@media only screen and (max-width: 375px){
+.logotrupper{
+  
+  width: 45%;
+  height: 25%;
+  position: relative;
+  top: 5%;
+
+}
+.logo-hover {
+    filter: invert(1) grayscale(100%) brightness(200%);
+    width: 45%;
+    height: 25%;
+    position: relative;
+    top: 5%;
+
+}
+}
+
+@media only screen and (max-width: 360px){
+  .logotrupper{
+
+     width: 50%;
+     height: 15%;
+  
+  }
+  .logo-hover {
+
+      filter: invert(1) grayscale(100%) brightness(200%);
+      width: 50%;
+      height: 15%;
+  
+  }
+  }
+  
