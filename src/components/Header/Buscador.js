@@ -1,11 +1,10 @@
 //React
 import React, { useState } from 'react';
-import { Select,TextField, MenuItem, InputLabel } from '@mui/material';
+import { Select,TextField, MenuItem } from '@mui/material';
 import axios from 'axios'
 import Modal from "react-modal"
-import {Link, useNavigate} from 'react-router-dom';
+import { useNavigate} from 'react-router-dom';
 //MUI
-import Backdrop from '@mui/material/Backdrop';
 import Pagination from '@mui/material/Pagination';
 import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
@@ -159,7 +158,7 @@ export default function Buscador({ navigation }) {
   // Manejador de cambio de pagina en el paginador del Modal
   const OnChangePaginacion = (e, p) => {
     set_UbicacionPaginado(p)
-    if (p == 1){
+    if (p === 1){
       set_InicioSlice(0)
       set_FinalSlice(10)
     }

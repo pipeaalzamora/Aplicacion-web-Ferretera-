@@ -95,7 +95,7 @@ export default function Pdfrender() {
       const file = arr_url[arr_url.length - 1]
       const number = parseInt(file.replace(/\D/g, "")) - 1
       dispatch(update_state(number))
-      if (number == -1){
+      if (number === -1){
         setPage(0)
       }else{
         setPage(number)
@@ -113,17 +113,7 @@ export default function Pdfrender() {
     dispatch(update_state(selectpaginanumero))
     setPage(selectpaginanumero)
   }
-   /* Cambio de paginas rederizado y selector*/
-   
-   const paginado = (event) => {
-    setPage(event.target.value);
-  }
 
-
-   const handlePageChange = (event) => {
-    const selectedPage = parseInt(event.target.value);
-    setPage(selectedPage);
-  };
   return (
   <>
     <div className="pdf">
