@@ -100,20 +100,6 @@ export default function Formulario () {
       Asunto:'',
       Mensaje:'',
     },
-    validate,
-    onSubmit: values => {
-      axios.post('http://192.168.0.160:3001/api/datosformulario',values)
-      .then(function(response){
-        alert("Ok")
-        console.log(response.status)
-      })
-      .catch (function(err){
-        console.log(err)
-      })
-
-
-      
-    },
   });
 
 
