@@ -1,53 +1,36 @@
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-![Logo](https://camo.githubusercontent.com/e32ec87f8ba8beb9019466266ecd161842d9d001a2e04f8c22f67a645f028d3d/68747470733a2f2f692e6962622e636f2f39394b4a5230312f666f6f7465722d6c6f676f2e706e67)
+## Getting Started
 
-
-# Aplicación Web Ferretera
-
-Aplicación Web para una empresa de importaciones de materiales ferreteros con un backend hecho en express
-
-
-## Autor
-
-- [@pipeaalzamora](https://github.com/pipealzamora)
-
-
-## Stack de tecnologias
-
-**Client:** Reactjs, Material UI, swiper ,react router, formik, axios
-
-**Server:** Node, Express, Axios, cors, dotenv, fs, mysql, nodemon
-
-
-## Run Locally
-
-Clone the project
+First, run the development server:
 
 ```bash
-  git clone https://github.com/pipealzamora/Aplicacion-web-Ferretera-.git
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-Go to the project directory
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```bash
-  cd Aplicacion-web-Ferretera-
-```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Install dependencies
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-```bash
-  npm install
-```
+## Learn More
 
-Start the server
+To learn more about Next.js, take a look at the following resources:
 
-```bash
-  npm start
-```
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Usado en
+## Deploy on Vercel
 
-Esta aplicación web se uso en la siguente empresa:
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- Ecosa
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
